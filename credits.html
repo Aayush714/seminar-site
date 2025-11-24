@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credits – DS Seminar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Adjust path if your CSS lives elsewhere -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- Header / navigation (match your other pages) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">DS</a>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="next-talk.html">Next talk</a>
+        <a href="past-talks.html">Past talks</a>
+        <a href="instructions-audience.html">Audience</a>
+        <a href="instructions-speakers.html">Speakers</a>
+        <a href="staying-informed.html">Staying informed</a>
+        <a href="credits.html">Credits</a>
+        <a href="suggest-talk.html">Suggest a talk</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Credits</h1>
+
+    <section>
+      <h2>Active organizers</h2>
+      <p>
+        The DS seminar is currently organized by:
+      </p>
+      <ul>
+        <li>
+      <strong>
+        <a href="https://sites.google.com/site/gopalpandurangan/home" target="_blank" rel="noopener">
+          Gopal Pandurangan
+        </a>
+      </strong>
+      – University of Houston
+    </li>
+        <li><strong>Aayush Gupta</strong> – University of Houston</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        For questions about the seminar, suggestions, or technical issues,
+        please contact the organizers at:
+      </p>
+      <p>
+        <a href="mailto:info@mycsplus.org">info@mycsplus.org</a>
+        <!-- replace with your actual contact email if different -->
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> DS Seminar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
