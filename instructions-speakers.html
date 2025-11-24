@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instructions for Speakers – DS Seminar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Adjust path if your CSS lives elsewhere -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- Header / navigation (match your other pages) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">DS</a>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="next-talk.html">Next talk</a>
+        <a href="past-talks.html">Past talks</a>
+        <a href="instructions-audience.html">Audience</a>
+        <a href="instructions-speakers.html">Speakers</a>
+        <a href="staying-informed.html">Staying informed</a>
+        <a href="credits.html">Credits</a>
+        <a href="suggest-talk.html">Suggest a talk</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Instructions for speakers</h1>
+
+    <section>
+      <h2>Practical instructions</h2>
+      <ul>
+        <li>
+          <strong>Connect early.</strong>
+          Please join the Zoom meeting at least <strong>30 minutes</strong> before the scheduled start time.
+          We use this time to test audio, video, screen sharing, and to answer any last-minute questions.
+          Once everything is working, you are welcome to step away and return just before the talk starts.
+        </li>
+        <li>
+          <strong>Slides in advance.</strong>
+          Please send us your slides a few days before the talk so we can post them on the website
+          and have a backup copy in case of technical problems.
+        </li>
+        <li>
+          <strong>Talk length.</strong>
+          A typical DS talk is about <strong>50 minutes</strong>, followed by questions.
+          If you have additional technical material that goes beyond this, we can:
+          Take questions, let attendees leave if they wish, and then continue with a more technical “after-session.”
+        </li>
+        <li>
+          <strong>Pointer.</strong>
+          Please use your mouse cursor as a “laser pointer” when highlighting parts of your slides.
+          This tends to be more visible on camera than a hardware laser pointer.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Recommended equipment</h2>
+      <p>
+        To ensure a smooth online experience for both you and the audience, we recommend the following:
+      </p>
+      <ul>
+        <li>
+          <strong>Computer.</strong>
+          A reasonably recent laptop or desktop. Before the talk, close heavy applications so that your CPU load
+          is comfortably below 50% while running Zoom.
+        </li>
+        <li>
+          <strong>Network.</strong>
+          A <strong>wired</strong> internet connection is strongly preferred over Wi-Fi, as it typically provides
+          lower latency and fewer dropouts.
+        </li>
+        <li>
+          <strong>Audio.</strong>
+          A good <strong>headset with a built-in microphone</strong> (USB or 3.5mm) is ideal.
+          It greatly improves sound quality and reduces echo compared to using laptop speakers and a built-in mic.
+        </li>
+        <li>
+          <strong>Optional: second screen.</strong>
+          If you have a second monitor, consider extending your display and putting the Zoom window there.
+          This allows you to see the audience while presenting, making the experience more natural and
+          making it easier to spot raised hands or chat messages.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>General advice for speakers</h2>
+      <p>
+        One of the main goals of DS is to make research in theoretical computer science widely accessible.
+        With that in mind, here are some suggestions for preparing your talk:
+      </p>
+      <ul>
+        <li>
+          <strong>Provide a gentle introduction.</strong>
+          Start with a broad overview of the area and give a sense of the kinds of problems people study there.
+          Assume a general TCS background rather than deep expertise in your subfield.
+        </li>
+        <li>
+          <strong>Highlight open problems.</strong>
+          When appropriate, mention key open questions and where your work fits in that landscape.
+          This helps the audience understand the broader impact of the results.
+        </li>
+        <li>
+          <strong>Mind the pace and technical density.</strong>
+          The online format is less forgiving of very fast or extremely technical talks.
+          Err on the side of going slightly slower and focusing on the main ideas rather than all details.
+        </li>
+        <li>
+          <strong>Use a live audience if available.</strong>
+          If you are presenting from a seminar room or office with a few people present,
+          it can help you gauge pacing and engagement, which is sometimes harder to do over video.
+        </li>
+        <li>
+          <strong>Slide design.</strong>
+          Use sufficiently large fonts and clear diagrams.
+          Remember that some viewers may be watching on laptops, tablets, or projectors with limited resolution.
+        </li>
+        <li>
+          <strong>Encourage questions.</strong>
+          Could you let the audience know whether you prefer questions during the talk or at the end?
+          The moderator will help manage questions via audio and chat to keep the discussion smooth.
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> DS Seminar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
